@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
 main {
       display: flex;
       flex-direction: column;
@@ -9,17 +11,17 @@ main {
       box-sizing: border-box; 
     }
 #blub{
-      max-width: 100%;
+      width: 75vw;
       height: auto;
-      margin-top: 20px; 
+      margin-top: 20px;
 }
 
 #counts {
-  font-size: 100px;
+  font-size: 10vw;
   color: #1C1C1C;
 }
 header {
-      font-family: Arial, sans-serif;
+      /* font-family: 'Signika Negative', sans-serif; */
       color: white;
       display: flex;
       justify-content: space-between;
@@ -37,33 +39,30 @@ body {
 footer {
   text-align: center;
   display: flex;
-  justify-content: space-between; /* Равномерное распределение по ширине */
+  justify-content: space-between; 
   align-items: center;
   height: 130px;
   background-color: #464451;
-  padding: 0 20px; /* Добавляем небольшой отступ справа и слева */
+  padding: 0 20px; 
 }
 
 #content {
   display: flex;
-  flex: 1; /* Равномерное распределение изображений по ширине */
-  justify-content: space-between; /* Изображения выравниваются влево и вправо */
+  flex: 1; 
+  justify-content: space-between; 
   align-items: center;
 }
-
-
 #on {
-    max-width: 15%;
-    height: auto;
-    right: -40%;
-    position: relative;
-    width: 100vw;
-  }
+  max-width: 25%;
+  position: relative;
+  margin-right: -10px;
+  width: 10vw;
+ }
 #pon {
-  max-width: 20%; 
+  max-width: 35%; 
   height: auto;
   margin: 20px; 
-  flex: 1;
-  width: 100vw;
+  flex: 1; 
+  width: 10vw;
 }
-
+ 
