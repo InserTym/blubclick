@@ -16,8 +16,8 @@ function on() {
     document.getElementById('blub').src="https://media.discordapp.net/attachments/1183497336056451126/1183858559096729600/1702324257031.png?ex=6589dd33&is=65776833&hm=cbce50a1e2a49dca890c7c72283223c949d5639df9703882c3fec5203ff2d82c&";
     document.getElementById('on').src="https://media.discordapp.net/attachments/1183497336056451126/1183840438499684442/1702319936850.png?ex=6589cc53&is=65775753&hm=c0bb7b8bd957110640982a007818f4cdc2bd0353059369e35e1d36f304926f9a&";
     document.body.style.backgroundColor = "white";
-    document.getElementById("header").style.backgroundColor = "#464451";
-    document.getElementById("footer").style.backgroundColor = "#464451";
+    document.getElementById("header").style.backgroundColor = "#1c1c1c";
+    document.getElementById("footer").style.backgroundColor = "#1c1c1c";
     document.getElementById("counts").style.color = "#1C1C1C";
   document.getElementById("header").style.boxShadow = "0 0 50px 20px #293133";
     return l  = false;
