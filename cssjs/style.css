@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
-
 main {
       display: flex;
       flex-direction: column;
@@ -11,17 +9,17 @@ main {
       box-sizing: border-box; 
     }
 #blub{
-      width: 75vw;
+      max-width: 100%;
       height: auto;
-      margin-top: 20px;
+      margin-top: 20px; 
 }
 
 #counts {
-  font-size: 10vw;
+  font-size: 100px;
   color: #1C1C1C;
 }
 header {
-      /* font-family: 'Signika Negative', sans-serif; */
+      font-family: Arial, sans-serif;
       color: white;
       display: flex;
       justify-content: space-between;
@@ -54,32 +52,18 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
-  #on {
-  max-width: 25%;
-  position: relative; /* или другое позиционирование, например, absolute или fixed */
-  margin-right: -10px;
-  }
-  #pon {
-  max-width: 35%; 
-  height: auto;
-  margin: 20px; 
-  flex: 1; 
-}
-}
-  
-@media screen and (min-width: 1024px) {
-  #on {
+#on {
     max-width: 15%;
     height: auto;
     right: -40%;
     position: relative;
-    margin-left: -90%;
+    width: 100vw;
   }
-  #pon {
+#pon {
   max-width: 20%; 
   height: auto;
   margin: 20px; 
-  flex: 1; 
+  flex: 1;
+  width: 100vw;
 }
-}
+
