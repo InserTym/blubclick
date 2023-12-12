@@ -58,13 +58,16 @@ footer {
   max-width: 25%;
   position: relative; /* или другое позиционирование, например, absolute или fixed */
   right: -100px;
+  width: 10vw;
+
     
   }
   #pon {
   max-width: 35%; 
   height: auto;
   margin: 20px; 
-  flex: 1; 
+  flex: 1;
+  width: 10vw; 
 }
 }
   
@@ -74,12 +77,14 @@ footer {
     height: auto;
     right: -40%;
     position: relative;
+    width: 10vw;
   }
   #pon {
   max-width: 20%; 
   height: auto;
   margin: 20px; 
-  flex: 1; 
+  flex: 1;
+  width: 10vw; 
 }
 }
 
