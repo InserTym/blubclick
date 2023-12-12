@@ -11,8 +11,13 @@ main {
       box-sizing: border-box; 
     }
 #blub{
-      width: 75vw;
+      width: 60vw;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: -inline-block;
       height: auto;
+      transfrom: translate(-50%, -50%)
       margin-top: 20px;
 }
 
@@ -52,17 +57,39 @@ footer {
   justify-content: space-between; 
   align-items: center;
 }
-#on {
-  max-width: 25%;
-  position: relative;
+
+@media screen and (max-width: 768px) {
+  #on {
+  max-width: 10vw;
+  position: relative; /* или другое позиционирование, например, absolute или fixed */
   margin-right: -10px;
-  width: 10vw;
- }
-#pon {
-  max-width: 35%; 
+  width: 25vw;
+  }
+  #pon {
+  max-width: 10vw;
   height: auto;
   margin: 20px; 
   flex: 1; 
-  width: 10vw;
+  width: 25vw;
+
 }
+}
+  
+@media screen and (min-width: 1024px) {
+  #on {
+    max-width: 10vw;
+    height: auto;
+    right: -40%;
+    position: relative;
+    margin-left: -90%;
+    width: 10vw;
+  }
+  #pon {
+  max-width: 10vw; 
+  height: auto;
+  margin: 20px; 
+  flex: 1;
+  width: 10vw;         
+}
+        }
  
