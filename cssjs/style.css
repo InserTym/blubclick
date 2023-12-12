@@ -51,40 +51,18 @@ footer {
   justify-content: space-between; /* Изображения выравниваются влево и вправо */
   align-items: center;
 }
-
-
-@media screen and (max-width: 768px) {
-  #on {
-  max-width: 25%;
-  position: relative; /* или другое позиционирование, например, absolute или fixed */
-  right: -100px;
-  width: 10vw;
-
-    
-  }
-  #pon {
-  max-width: 35%; 
-  height: auto;
-  margin: 20px; 
-  flex: 1;
-  width: 10vw; 
-}
-}
-  
-@media screen and (min-width: 1024px) {
-  #on {
+#on {
     max-width: 15%;
     height: auto;
     right: -40%;
     position: relative;
     width: 10vw;
   }
-  #pon {
+#pon {
   max-width: 20%; 
   height: auto;
   margin: 20px; 
   flex: 1;
   width: 10vw; 
-}
 }
 
