@@ -58,36 +58,44 @@ footer {
   align-items: center;
 }
 
+/* Common styles for both mobile and desktop */
+#on, #pon {
+  max-width: 10vw;
+  height: auto;
+  margin: 20px;
+}
+
 @media screen and (max-width: 768px) {
+  /* Styles for mobile devices */
   #on {
-    max-width: 10vw;
     position: relative;
     margin-right: -10px;
     width: 25vw;
   }
+  
   #pon {
-    max-width: 10vw;
-    height: auto;
-    margin: 20px; 
-    flex: 1; 
+    flex: 1;
     width: 25vw;
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for tablets */
+  #on, #pon {
+    width: 50vw; /* Adjust the percentage as needed */
+  }
+}
+
 @media screen and (min-width: 1024px) {
+  /* Styles for desktop */
   #on {
-    max-width: 10vw;
-    height: auto;
     right: -40%;
     position: relative;
     margin-left: -90%;
     width: 10vw;
   }
+  
   #pon {
-    max-width: 10vw; 
-    height: auto;
-    margin: 20px; 
-    flex: 1;
-    width: 10vw;         
+    width: 10vw;
   }
-      }
+}
