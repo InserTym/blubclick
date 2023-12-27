@@ -4,7 +4,7 @@ function on() {
   if (l == false) {
   document.getElementById('blub').src='https://media.discordapp.net/attachments/1183497336056451126/1183857819720617984/1702324082835.png?ex=6589dc83&is=65776783&hm=12480c56ca782f73ab31c9e15ebb04cb674d8b5c236b59fd0e6eed67122904e2&';
   document.getElementById('on').src='image/1702318088887.png';
-  document.getElementById("header").style.backgroundColor = "#1c1c1c;
+  document.getElementById("header").style.backgroundColor = "#1c1c1c";
   document.getElementById("footer").style.backgroundColor = "#1c1c1c";
   document.getElementById("counts").style.color = "white";
   document.getElementById("header").style.boxShadow = "0 0 50px 20px #1c1c1c";
