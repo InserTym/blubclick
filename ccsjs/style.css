@@ -14,9 +14,9 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  display: inline-block; /* Removed the "-" before "inline-block" */
+  display: inline-block;
   height: auto;
-  transform: translate(-50%, -50%); /* Fixed the spelling of "transform" */
+  transform: translate(-50%, -50%); 
   margin-top: 20px;
 }
 
@@ -58,44 +58,18 @@ footer {
   align-items: center;
 }
 
-/* Common styles for both mobile and desktop */
-#on, #pon {
-  max-width: 10vw;
-  height: auto;
-  margin: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  /* Styles for mobile devices */
-  #on {
-    position: relative;
-    margin-right: -10px;
-    width: 25vw;
-  }
-  
-  #pon {
-    flex: 1;
-    width: 25vw;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Styles for tablets */
-  #on, #pon {
-    width: 50vw; /* Adjust the percentage as needed */
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  /* Styles for desktop */
-  #on {
+#on {
+    max-width: 15%;
+    height: auto;
     right: -40%;
     position: relative;
-    margin-left: -90%;
-    width: 10vw;
+    width: 100vw;
   }
-  
-  #pon {
-    width: 10vw;
-  }
+#pon {
+  max-width: 20%; 
+  height: auto;
+  margin: 20px; 
+  flex: 1;
+  width: 100vw;
 }
+
