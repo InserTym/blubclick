@@ -59,17 +59,11 @@ footer {
 }
 
 #on {
-    max-width: 5%;
-    height: auto;
-    right: -40%;
-    position: relative;
-    width: 10vw;
+  width: 10px;
+  height: 10px;
   }
 #pon {
-  max-width: 2%; 
-  height: auto;
-  margin: 2px; 
-  flex: 1;
-  width: 1vw;
+  width: 10px;
+  height: 10px;
 }
 
