@@ -42,21 +42,11 @@ body {
 }
 
 footer {
-  text-align: center;
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  height: 130px;
+  
   background-color: #464451;
-  padding: 0 20px; 
 }
 
-#content {
-  display: flex;
-  flex: 1; 
-  justify-content: space-between; 
-  align-items: center;
-}
+
 
 #on {
   width: 10px;
